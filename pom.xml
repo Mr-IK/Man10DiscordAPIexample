@@ -81,9 +81,9 @@
       <dependency>
           <groupId>red.man10</groupId>
           <artifactId>Man10DiscordSync</artifactId>
-          <version>1.0.0</version>
+          <version>1.0.1</version>
           <scope>system</scope>
-          <systemPath>${basedir}/lib/Man10DiscordSync-1.0.0-jar-with-dependencies.jar</systemPath>
+          <systemPath>${basedir}/lib/Man10DiscordSync-1.0.1-jar-with-dependencies.jar</systemPath>
       </dependency>
   </dependencies>
 </project>

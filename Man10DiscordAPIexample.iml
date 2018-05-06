@@ -9,7 +9,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_10">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -42,9 +42,9 @@
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.13.0" level="project" />
     <orderEntry type="module-library">
-      <library name="Maven: red.man10:Man10DiscordSync:1.0.0">
+      <library name="Maven: red.man10:Man10DiscordSync:1.0.1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/Man10DiscordSync-1.0.0-jar-with-dependencies.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/Man10DiscordSync-1.0.1-jar-with-dependencies.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

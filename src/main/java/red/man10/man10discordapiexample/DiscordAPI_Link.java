@@ -6,10 +6,12 @@ import red.man10.man10discordsync.Discorddata;
 import red.man10.man10discordsync.Man10DiscordSync;
 import red.man10.man10discordsync.chatapis.Chat_reception_Event;
 import red.man10.man10discordsync.chatapis.Chat_reception_Listener;
+import red.man10.man10discordsync.loginapis.Login_Event;
+import red.man10.man10discordsync.loginapis.Login_Listener;
 
 import java.util.Random;
 
-public class DiscordAPI_Link implements Chat_reception_Listener {
+public class DiscordAPI_Link implements Chat_reception_Listener,Login_Listener {
 
     Man10DiscordAPIexample plugin;
     Man10DiscordSync core;
@@ -19,6 +21,13 @@ public class DiscordAPI_Link implements Chat_reception_Listener {
         this.core = core;
         data = core.getData();
         core.getChatreception().addChat_reception_Listener(this);
+        core.getLogin().addLogin_Listener(this);
+    }
+
+    @Override
+    public void Login(Login_Event event){
+        data.sendMessage(event.getuser().getName()+" さん * * ***Man10server公式Discordへようこそ！*** * *\n"+
+                plugin.discord.getserver().getTextChannelsByName("readme",true).get(0).getAsMention()+" を読んだあとは楽しんでいってね！",plugin.discord.getserver().getDefaultChannel());
     }
 
     @Override

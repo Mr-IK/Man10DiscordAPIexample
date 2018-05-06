@@ -32,5 +32,5 @@ Man10DiscordSync's API Example of use.
   APIの参考程度にお願いします。
 
   Since it is an example of code to the last, it does not distribute.
-  
+
   Please give reference level of API.
