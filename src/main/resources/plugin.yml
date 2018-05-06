@@ -1,0 +1,12 @@
+name: Man10DiscordAPIexample
+version: ${project.version}
+main: red.man10.man10discordapiexample.Man10DiscordAPIexample
+authors: [Mr_IK]
+description: Man10DiscordAPI Example of the use 
+depend: [Man10DiscordSync]
+softdepend: [Man10DiscordSync]
+commands:
+  mdiscord:
+    description: Man10Discord_plugin_maincommand
+    usage: /<command>
+    default: op

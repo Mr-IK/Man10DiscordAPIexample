@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Man10DiscordSync">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Man10DiscordSync" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../Man10DiscordSync/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
