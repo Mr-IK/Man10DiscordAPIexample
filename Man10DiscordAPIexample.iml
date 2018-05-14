@@ -42,7 +42,7 @@
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.13.0" level="project" />
     <orderEntry type="module-library">
-      <library name="Maven: red.man10:Man10DiscordSync:1.0.1">
+      <library name="Maven: red.man10:Man10DiscordSync:1.0.2">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/Man10DiscordSync-1.0.1-jar-with-dependencies.jar!/" />
         </CLASSES>
