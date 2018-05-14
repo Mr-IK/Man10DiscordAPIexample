@@ -14,14 +14,14 @@ Man10DiscordSync's API Example of use.
 
   Man10DiscordSyncのAPI使用例です。
 
-  現在の時点ではチャットの受け取り・送信のみ可能です。
+  現在の時点ではチャットの受け取り・送信とログイン情報の受け取りが可能です。
 
 ### Demo
   このコードをコピペするだけでこのようなことができます
 
   You can do this just by copying and pasting this code
 
-  [![https://gyazo.com/4257e27f46bf3670b45d4647b509c483](https://i.gyazo.com/4257e27f46bf3670b45d4647b509c483.gif)](https://gyazo.com/4257e27f46bf3670b45d4647b509c483)
+  [![https://gyazo.com/086a51558ebe7521f7b6db05698ab9dc](https://i.gyazo.com/086a51558ebe7521f7b6db05698ab9dc.gif)](https://gyazo.com/086a51558ebe7521f7b6db05698ab9dc)
 
 ### Requirement
 * Man10DiscordSync
